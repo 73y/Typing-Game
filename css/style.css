@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(37, 37, 37);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(233, 233, 233);
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+.statistics {
+    display: flex;
+    /*background-color: rgb(112, 32, 32);*/
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid 1px rgb(29, 29, 29);
+    border-right: solid 1px rgb(29, 29, 29);
+}
+
+.leaderboard {
+    display: flex;
+    /*background-color: darkgreen;*/
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid 1px rgb(29, 29, 29);
+    border-left: solid 1px rgb(29, 29, 29);
+}
+
+.main-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.leaderboard-list li {
+    margin: .5rem;
+}
+
+.main-area {
+    display: grid;
+    border-bottom: solid 1px rgb(29, 29, 29);
+    /*background-color: rgb(25, 44, 109);*/
+}
+
+.text {
+    font-size: 2rem;
+    padding: 4rem;
+}
+
+.inputText {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    font-size: 1.5rem;
+}
+
+#text {
+    font-size: 2rem;
+}
+
+.text-focus {
+    background: rgb(100, 63, 63);
+}
+
+.right-word {
+    color: green;
+}
+
+.wrong-word {
+    color: red;
+}

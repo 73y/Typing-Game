@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(29, 29, 29);
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.brand-title {
+    align-items: center;
+    font-size: 2rem;
+    margin: .75rem;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+    font-size: 1.75rem;
+}
+
+ul li {
+    list-style: none;
+    margin: 1rem;
+}
+
+
+/*
+.read-text,.write-text {
+    border: solid 2px rgb(53, 53, 53);
+    display: flex;
+    justify-content: center;
+    margin: 10rem 20rem;
+}
+*/
